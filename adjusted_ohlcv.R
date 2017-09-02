@@ -1,6 +1,6 @@
 library(httr)
 library(stringr)
-library(dplyr)
+library(tidyquant)
 library(quantmod)
 
 URLS <- c("https://www.nseindia.com/marketinfo/companyTracker/compInfo.jsp?symbol=%s&series=EQ",
